@@ -1,0 +1,40 @@
+:root {
+    --color-bg: #282828;
+    --color-bg-dark: #1d2021;
+    --color-bg-soft: #3c3836;
+    --color-fg: #fbf1c7;
+}
+
+html {
+	color: var(--color-fg);
+	background-color: var(--color-bg);
+	font: 2vw "Victor Mono", monospace;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	height: 100%;
+}
+
+a { 
+	color: var(--color-fg);
+	text-decoration: none;
+}
+
+body {
+	padding: 2em;
+}
+
+
+.nitter, .youtube, .libreddit, .github {
+	box-shadow:  var(--color-bg-dark) 9px 7px 0px 2px;
+	background-color: var(--color-bg-soft);
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px;
+	font-size: calc(13px + 0.5vw);
+}
+
+li { 
+	margin: 13px 0 ;
+}
+

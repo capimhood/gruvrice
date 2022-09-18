@@ -1,0 +1,124 @@
+* {
+    font-family: Victor Mono;
+    font-weight: bold; 
+    font-size: 11px;
+}
+
+window#waybar {
+    background-color: transparent;
+}
+
+window#waybar:first-child > box {
+    padding: 1px 1px 1px 1px;
+    background-color: #282828;
+}
+
+window#waybar.hidden {
+    background-color: transparent;	
+    opacity: 0;
+}
+
+window#waybar.chromium {
+    background-color: transparent;
+}
+
+#workspaces button {
+    padding: 0 0px;
+    color: #504945;
+    background-color: transparent;
+}
+
+#workspaces button:hover {
+    background: transparent;
+    color: #d5c4a1;
+}
+
+#workspaces button.focused {
+    color: #ebdbb2;
+}
+
+#workspaces button.urgent {
+    background-color: #fb4934;
+}
+
+#mode {
+    color: #ebdbb2;
+    padding: 2px;
+}
+
+#window {
+	color: #ebdbb2;
+}
+
+#clock {
+    color: #d3869b;
+}
+
+#battery {
+    color: #b8bb26;
+}
+
+#battery.charging, #battery.plugged {
+    color: #b8bb26;
+    
+}
+
+#battery.critical:not(.charging) {
+    
+    color: #fb4934;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+label:focus {
+    background-color: #1d2021;
+}
+
+#memory {
+    
+    color: #fe8019;
+}
+#pulseaudio {
+    
+    color: #fabd2f;
+}
+
+#tray {
+    background-color: transparent;
+}
+
+#mpd {
+    color: #83a3a5;
+}
+
+#mpd.disconnected {
+    background-color: #fb4934;
+    color: #ebdbb2;
+}
+
+#mpd.stopped {
+    background-color: #d79921;
+    color: #ebdbb2;
+}
+
+#mpd.paused {
+    background-color: #928374;
+    color: #ebdbb2;
+}
+
+#network {
+    color: #8ec07c;
+}
+#clock,
+#battery,
+#memory,
+#pulseaudio,
+#tray,
+#mode,
+#mpd,
+#network {
+    padding: 4px;
+}
