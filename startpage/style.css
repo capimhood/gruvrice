@@ -1,10 +1,3 @@
-:root {
-    --color-bg: #282828;
-    --color-bg-dark: #1d2021;
-    --color-bg-soft: #3c3836;
-    --color-fg: #fbf1c7;
-}
-
 html {
 	color: var(--color-fg);
 	background-color: var(--color-bg);
@@ -16,6 +9,7 @@ html {
 }
 
 a { 
+
 	color: var(--color-fg);
 	text-decoration: none;
 }
@@ -24,13 +18,18 @@ body {
 	padding: 2em;
 }
 
+.main {
+    color: #fb4934;
+    display: flex;
+}
 
 .nitter, .youtube, .libreddit, .github {
-	box-shadow:  var(--color-bg-dark) 9px 7px 0px 2px;
+	box-shadow:  var(--color-bg-dark) 9px 7px 0px;
 	background-color: var(--color-bg-soft);
 	display: inline-block;
 	vertical-align: top;
 	padding: 10px;
+	margin: 10px;
 	font-size: calc(13px + 0.5vw);
 }
 

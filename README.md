@@ -12,7 +12,7 @@ Window Manager
 - [sway](https://github.com/swaywm/sway)
 
 Browser
-- [qutebrowser](https://github.com/qutebrowser/qutebrowser)
+- [librewolf](https://librewolf.net/)
 
 Text Editor
 - [nvim](https://github.com/neovim/neovim)
@@ -33,26 +33,23 @@ PDF Viewer
 
 
 ### sway + waybar
-
 ![sway/waybar view](images/desktop.png)
 
-### qutebrowser + startpage
-
-![startpage on qutebrowser](images/startpage.png)
+### librewolf + startpage
+![startpage on librewolf](images/librewolf.png)
 
 ### neovim
-
 ![neovim sample](images/neovim.png)
 
 ### ncmpcpp and lingot
-
 ![ncmpcpp](images/ncmpcpp.png)
 ![lingot](images/lingot.png)
 
 ### zathura
-
 ![Zathura pdf view](images/zathura.png)
 
 ### mako notification
+![mako notification](images/mako.png)
 
-![Mako notification](images/mako.png)
+### dunst notification
+![dunst notification](images/dunst.png)

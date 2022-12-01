@@ -1,0 +1,7 @@
+#!/bin/bash
+
+SCAN=('wpa_cli scan')
+RESULT=('wpa_cli scan_results')
+
+
+${SCAN} ; sleep 3.5 ; ${RESULT} | sed '1d'
